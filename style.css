@@ -1,0 +1,87 @@
+body{
+background-color: whitesmoke;
+
+    justify-content: center;
+    
+    gap:1rem;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+} 
+
+.fetch_btn{
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: lightgrey;
+}
+
+.fetch_btn:hover{
+    background-color:gray;
+    transform: scale(1.1);
+}
+
+.search_Input{
+    width: 300px;
+    height: 50px;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.search_btn{
+    width: 100px;
+    height:50px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: lightgrey;
+}
+
+.search_btn:hover{
+    background-color:gray;
+    transform: scale(1.1);
+}
+
+.Result{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 250px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px 0px rgb(22, 11, 11);
+    margin: 10px 10px;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 2px rgb(162, 168, 252);
+    transform: scale(1.1);
+}
+
+.title{
+    padding:0 20px;
+    
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
